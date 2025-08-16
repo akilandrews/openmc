@@ -29,8 +29,9 @@ docs/source/_images/*.pdf
 docs/source/_images/*.aux
 docs/source/pythonapi/generated/
 
-# Source build
+# Source build and install
 build
+install
 
 # build from src/utils/setup.py
 src/utils/build
