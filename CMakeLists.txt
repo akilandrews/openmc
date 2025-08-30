@@ -174,7 +174,7 @@ endif()
 
 if (NOT pugixml_FOUND)
   add_subdirectory(vendor/pugixml)
-  set_target_properties(pugixml PROPERTIES CXX_STANDARD 14 CXX_EXTENSIONS OFF)
+  # set_target_properties(pugixml PROPERTIES CXX_STANDARD 14 CXX_EXTENSIONS OFF)
 endif()
 
 #===============================================================================
