@@ -50,7 +50,7 @@
                 "CMAKE_CXX_COMPILER": "clang++"
             },
             "environment": {
-                "LLVM_CXX_FLAGS": "-fopenmp -fno-relaxed-template-template-args --offload-arch=gfx90a --rocm-path=/opt/rocm-6.4.0"
+                "LLVM_CXX_FLAGS": "$env{EXTRA_CFLAGS}"
             }
         },
         {
